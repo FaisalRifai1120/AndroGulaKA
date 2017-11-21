@@ -14,7 +14,7 @@ import android.widget.TextView;
  * Created by Faisal_Rifai on 20/11/2017.
  */
 
-class FragmentText extends Fragment {
+public class FragmentText extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         TextView text = new TextView(container.getContext());
